@@ -25,6 +25,11 @@ pipeline {
             echo 'm2-2'
           }
         }
+        stage('A3') {
+          steps {
+            echo 'm1-3'
+          }
+        }
       }
     }
     stage('Test') {
